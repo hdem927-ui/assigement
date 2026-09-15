@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Hdem personal website promoting Matrix Master course">
+    <title>Hdem - My First Website</title>
+</head>
+<body>
+
+    <!-- Main Title -->
+    <h1>Hdem's Personal Website</h1>
+    <p>Welcome to my site! My name is <span>Hdem</span> and I am learning web development.</p>
+
+    <!-- Navigation Link -->
+    <p>
+        <a href="#course">Click here to see my course info</a>
+    </p>
+
+    <hr>
+
+    <!-- My Skills List -->
+    <h2>What I Am Learning</h2>
+    <ul>
+        <li>HTML Web Design</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Coding</li>
+    </ul>
+
+    <hr>
+
+    <!-- Course Section -->
+    <div id="course">
+        <h2>Matrix Master Course in Rotterdam</h2>
+        <p>I am taking the Full Stack Web Development course at Matrix Master in Rotterdam. It is a great course for beginners who want to learn how to code websites!</p>
+
+        <!-- Course Table -->
+        <h3>Course Information</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Module</th>
+                    <th>Topic</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>HTML Basics</td>
+                    <td>Rotterdam</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CSS Styling</td>
+                    <td>Rotterdam</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <!-- Contact Form -->
+    <h2>Sign Up for Information</h2>
+    
+    <form>
+        <!-- Text Input -->
+        <p>
+            Your Name: <br>
+            <input type="text" name="username">
+        </p>
+
+        <!-- Select Dropdown -->
+        <p>
+            Choose Learning Mode: <br>
+            <select name="mode">
+                <option value="rotterdam">In Class (Rotterdam)</option>
+                <option value="online">Online</option>
+            </select>
+        </p>
+
+        <!-- Radio Buttons -->
+        <p>
+            Have you coded before? <br>
+            <input type="radio" name="experience" value="no"> No <br>
+            <input type="radio" name="experience" value="yes"> Yes
+        </p>
+
+        <!-- Checkbox -->
+        <p>
+            <input type="checkbox" name="newsletter"> Send me course info by email
+        </p>
+
+        <!-- Submit Button -->
+        <p>
+            <input type="submit" value="Send Form">
+        </p>
+    </form>
+
+</body>
+</html>
