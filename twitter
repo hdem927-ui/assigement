@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in to Twitter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- The main white box in the center -->
+    <div class="login-box">
+        
+        <!-- Close X button -->
+        <p class="close">X</p>
+
+        <!-- Twitter Logo -->
+        <img src="twitter-logo.png" width="30" alt="Twitter Logo">
+
+        <!-- Title -->
+        <h2>Sign in to Twitter</h2>
+
+        <!-- Google and Apple buttons -->
+        <button class="btn">Sign in with Google</button>
+        <button class="btn">Sign in with Apple</button>
+
+        <!-- Or divider -->
+        <p class="or-text">--------- or ---------</p>
+
+        <!-- Text input field -->
+        <input type="text" placeholder="Phone, email, or username">
+
+        <!-- Next button -->
+        <button class="black-btn">Next</button>
+
+        <!-- Forgot password button -->
+        <button class="btn">Forgot password?</button>
+
+        <!-- Bottom signup text -->
+        <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+
+    </div>
+
+</body>
+</html>
